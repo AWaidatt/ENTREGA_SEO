@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 200px;
+    width: 400px;
+}
+
+
+header{
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(219, 219, 46);
+
+    
+}
+
+.nav__links{
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section__1{
+
+    background-color: blueviolet;
+}
+
+.content__1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50vh 50vh;
+
+}
